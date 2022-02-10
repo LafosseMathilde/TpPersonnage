@@ -6,7 +6,7 @@ public class jeuPersonnage{
        System.out.println(" " + UneGuerrière.LaVie());
 
         Personnage UnRodeur = new Personnage("Thomas",70);
-       System.out.println("Avant la vie de Thomas est " + UnMagicien.LaVie());
+       System.out.println("Avant la vie de Thomas est " + UnRodeur.LaVie());
 
         System.out.println("Le nom de la guerrière = " + UnGuerrière.LeNom());
         System.out.println("Le nom du rodeur = " + UnRodeur.LeNom());
