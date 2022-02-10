@@ -16,8 +16,8 @@ public class jeuPersonnage{
        System.out.println("Apres la vie de la guerrière est " + UneGuerrière.LaVie());
 
        UnRodeur.Attaque(UneGuerrière,40);
-       System.out.println("Ataque La vie du Rodeur est " + UnRodeur.LaVie());
-       System.out.println("Ataque La vie de la Guerrière est " + UneGuerrière.LaVie());
+       System.out.println("Attaque La vie du Rodeur est " + UnRodeur.LaVie());
+       System.out.println("Attaque La vie de la Guerrière est " + UneGuerrière.LaVie());
 }
 }
 
