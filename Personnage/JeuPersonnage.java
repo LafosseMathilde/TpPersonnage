@@ -1,28 +1,24 @@
-<?php
+ <?php
 import Personnage.*;
-public class JeuPersonnage 
-public static void main (string args[]) {
-	Personnage UneSorciere = new Personnage ("Mathilde",200);
-	system.out.println("nom du Personnage="+UneSorciere.LeNom());
-	}
-	
 public class jeuPersonnage{
     public static void main(String args[]) {
-        Personnage UneSorciere = new Personnage("Mathilde",200);
-       System.out.println("Avant la vie de Fred est " + UnSorcier.LaVie());
+        Personnage UneGuerrière = new Personnage("Mathilde",100);
+       System.out.println("Avant la vie de Fred est " + UneGuerrière.LaVie());
 
-        Personnage UnMagicien = new Personnage("Bob",100);
+        Personnage UnRodeur = new Personnage("Thomas",70);
        System.out.println("Avant la vie de Bob est " + UnMagicien.LaVie());
 
-        System.out.println("Le nom du sorcier = " + UnSorcier.LeNom());
-        System.out.println("Le nom du magicien = " + UnMagicien.LeNom());
+        System.out.println("Le nom du sorcier = " + UnGuerrière.LeNom());
+        System.out.println("Le nom du magicien = " + UnRodeur.LeNom());
 
-       System.out.println("Avant la vie du sorcier est " + UnSorcier.LaVie());
-       UnSorcier.AugmenterVie(10);
-       System.out.println("Apres la vie du sorcier est " + UnSorcier.LaVie());
+       System.out.println("Avant la vie du sorcier est " + UneGuerrière.LaVie());
+       UneGuerrière.AugmenterVie(20);
+       System.out.println("Apres la vie du sorcier est " + UneGuerrière.LaVie());
 
-       UnMagicien.Attaque(UnSorcier,40);
-       System.out.println("Atak La vie du magicien est " + UnMagicien.LaVie());
-       System.out.println("Atak La vie du sorcier est " + UnSorcier.LaVie());
+       UnRodeur.Attaque(UneGuerrière,40);
+       System.out.println("Atak La vie du magicien est " + UnRodeur.LaVie());
+       System.out.println("Atak La vie du sorcier est " + UneGuerrière.LaVie());
 }
-} 
+}
+
+
