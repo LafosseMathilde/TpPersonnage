@@ -18,6 +18,21 @@ public class jeuPersonnage{
        UnRodeur.Attaque(UneGuerrière,40);
        System.out.println("Attaque La vie du Rodeur est " + UnRodeur.LaVie());
        System.out.println("Attaque La vie de la Guerrière est " + UneGuerrière.LaVie());
+     
+    public void AugmenterVie(int valeur) {
+        this.vie = this.vie + valeur;
+     }
+     
+     
+    public class Combat {
+     private Personnage UneGuerrière;
+     private Personnage UnRodeur;
+ 
+    public Combat(Personnage UneGerrière, Personnage UnRodeur) {
+        this.UneGuerrière = UneGuerrière;
+        this.UnRodeur = UnRodeur;
+    }
+ 
 }
 }
 
