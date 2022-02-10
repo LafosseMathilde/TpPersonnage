@@ -23,7 +23,6 @@ public class jeuPersonnage{
         this.vie = this.vie + valeur;
      }
      
-     
     public class Combat {
      private Personnage UneGuerrière;
      private Personnage UnRodeur;
